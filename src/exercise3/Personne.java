@@ -19,11 +19,11 @@ public class Personne {
 
 	public Personne() {
 		saisieNom();
-//		saisiePrenom();
-//		saisieAdresseLigne1();
-//		saisieAdresseLigne2();
-//		saisieAdresseVille();
-//		saisieAdresseCP();
+		saisiePrenom();
+		saisieAdresseLigne1();
+		saisieAdresseLigne2();
+		saisieAdresseVille();
+		saisieAdresseCP();
 		saisieAge();
 	}
 
@@ -34,11 +34,11 @@ public class Personne {
 	public Personne(String nom, String prenom, String adresseLigne1, String adresseLigne2, String adresseCP,
 			String adresseVille, int age) {
 		this.nom = nom;
-//		this.prenom = prenom;
-//		this.adresseLigne1 = adresseLigne1;
-//		this.adresseLigne2 = adresseLigne2;
-//		this.adresseVille = adresseVille;
-//		this.adresseCP = adresseCP;
+		this.prenom = prenom;
+		this.adresseLigne1 = adresseLigne1;
+		this.adresseLigne2 = adresseLigne2;
+		this.adresseVille = adresseVille;
+		this.adresseCP = adresseCP;
 		this.age = age;
 	}
 
@@ -174,11 +174,11 @@ public class Personne {
 	// afficher
 	public void affichage() {
 	System.out.println("Nom " + nom);
-//		System.out.println("Prenom: " + prenom);
+		System.out.println("Prenom: " + prenom);
 		System.out.println("Age : " + age);
-//		System.out.println(
-//				"Address: " + adresseLigne1 + " - " + adresseLigne2 + " - " + adresseVille + " - " + adresseCP);
-//		System.out.println();
+		System.out.println(
+				"Address: " + adresseLigne1 + " - " + adresseLigne2 + " - " + adresseVille + " - " + adresseCP);
+		System.out.println();
 	}
 
 }
